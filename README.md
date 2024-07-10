@@ -3,7 +3,7 @@
 ## 本仓库镜像拉取方式
 
 ```bash
-docker pull registry.cn-hangzhou.aliyuncs.com/alvisisme/ubuntu:22.04
+docker pull registry.cn-hangzhou.aliyuncs.com/library-mirror/ubuntu:22.04
 ```
 
 可拉取镜像参照 `images.txt`
