@@ -1,52 +1,38 @@
-# ubuntu
+#-------- ubuntu ------------
 #ubuntu:16.04
 #ubuntu:18.04
 #ubuntu:20.04
 #ubuntu:22.04
 #ubuntu:24.04
-
-# debian
+#--------- debian -----------
 #debian:10
 #debian:11
 #debian:12
-
-# centos
+#--------- centos -----------
 #centos:centos7.9.2009
-
-# docker in docker
+#--------- docker in docker -----------
 #docker:26.1.4-dind-rootless
-
-# mysql
+#--------- mysql -----------
 #mysql:5.5.54
-
-# postgres
+#--------- postgres -----------
 #postgres:12.17
-
-# mongo
+#---------- mongo ----------
 #mongo:4.2.22
-
-# redis
+#---------- redis ----------
 #redis:7.2.5
-
-# nginx
+#---------- nginx ----------
 #nginx:1.26.1
-
-# maven
+#---------- maven ----------
 #maven:3.9.7
-
-# tomcat
+#---------- tomcat ----------
 #tomcat:9.0.89-jdk8
-
-# openjdk
+#---------- openjdk ----------
 #openjdk:8u201-alpine
-
-# python
+#---------- python ----------
 #python:3.12.4
-
-# golang
+#---------- golang ----------
 #golang:1.22.4
-
-# node
+#---------- node ----------
 #node:12
 #node:12.22.12
 #node:14
@@ -60,6 +46,7 @@
 #node:20.15.1
 #node:22
 #node:22.4.1
-
-# linuxserver
-linuxserver/code-server:4.91.0
+#---------- linuxserver ----------
+#linuxserver/code-server:4.91.0
+#----------- verdaccio ---------
+verdaccio/verdaccio:5.31.1
