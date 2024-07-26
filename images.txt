@@ -12,26 +12,50 @@
 #centos:centos7.9.2009
 #--------- docker in docker -----------
 #docker:26.1.4-dind-rootless
+#--------- caddy -----------
+caddy:2.8.4
 #--------- mysql -----------
 #mysql:5.5.54
+mysql:5.7.43
+#--------- adminer -----------
+adminer:4.8.1
+#--------- phpmyadmin -----------
+phpmyadmin:5.2.1
+#--------- mariadb -----------
+mariadb:11.2.4
 #--------- postgres -----------
 #postgres:12.17
 #---------- mongo ----------
 #mongo:4.2.22
+mongo-express:1.0.2-20
 #---------- redis ----------
 #redis:7.2.5
 #---------- nginx ----------
 #nginx:1.26.1
 #---------- maven ----------
 #maven:3.9.7
+#---------- httpd ----------
+httpd:2.4.62
+#---------- rabbitmq ----------
+rabbitmq:3.13.6
+#---------- memcached ----------
+memcached:1.6.29
 #---------- tomcat ----------
 #tomcat:9.0.89-jdk8
+#---------- jetty ----------
+jetty:9.4.51
+jetty:9.4.51-jdk8
+jetty:9.4.51-jdk11
 #---------- openjdk ----------
 #openjdk:8u201-alpine
 #---------- python ----------
 #python:3.12.4
 #---------- golang ----------
 #golang:1.22.4
+#---------- rust ----------
+rust:1.80.0
+#---------- php ----------
+php:5.6.40-apache
 #---------- node ----------
 #node:12
 #node:12.22.12
@@ -55,6 +79,8 @@ sonatype/nexus3:3.70.1
 #----------- gitea ---------
 #gitea/gitea:1.22.1
 #gitea/gitea:1.22.1-rootless
+#----------- portainer ---------
+portainer/portainer-ce:2.20.3
 #----------- drone ---------
 #drone/drone:2.24.0
 #drone/cli:1.8.0
