@@ -53,14 +53,18 @@
 #----------- nexus3 ---------
 sonatype/nexus3:3.70.1
 #----------- gitea ---------
-gitea/gitea:1.22.1
-gitea/gitea:1.22.1-rootless
+#gitea/gitea:1.22.1
+#gitea/gitea:1.22.1-rootless
 #----------- drone ---------
-drone/drone:2.24.0
-drone/cli:1.8.0
-drone/git:1.2.1
-drone/git:linux-amd64
-drone/drone-runner-docker:1.8.3
-drone/drone-runner-docker:linux-amd64
+#drone/drone:2.24.0
+#drone/cli:1.8.0
+#drone/git:1.2.1
+#drone/git:linux-amd64
+#drone/drone-runner-docker:1.8.3
+#drone/drone-runner-docker:linux-amd64
 #----------- calibre-web ---------
-linuxserver/calibre-web:0.6.22
+#linuxserver/calibre-web:0.6.22
+#----------- openvscode-server ---------
+gitpod/openvscode-server:1.91.1
+#----------- traefik ---------
+traefik:v3.1.0
