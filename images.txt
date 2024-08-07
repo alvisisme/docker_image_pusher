@@ -13,21 +13,21 @@
 #--------- docker in docker -----------
 #docker:26.1.4-dind-rootless
 #--------- caddy -----------
-caddy:2.8.4
+#caddy:2.8.4
 #--------- mysql -----------
 #mysql:5.5.54
-mysql:5.7.43
+#mysql:5.7.43
 #--------- adminer -----------
-adminer:4.8.1
+#adminer:4.8.1
 #--------- phpmyadmin -----------
-phpmyadmin:5.2.1
+#phpmyadmin:5.2.1
 #--------- mariadb -----------
-mariadb:11.2.4
+#mariadb:11.2.4
 #--------- postgres -----------
 #postgres:12.17
 #---------- mongo ----------
 #mongo:4.2.22
-mongo-express:1.0.2-20
+#mongo-express:1.0.2-20
 #---------- redis ----------
 #redis:7.2.5
 #---------- nginx ----------
@@ -35,17 +35,17 @@ mongo-express:1.0.2-20
 #---------- maven ----------
 #maven:3.9.7
 #---------- httpd ----------
-httpd:2.4.62
+#httpd:2.4.62
 #---------- rabbitmq ----------
-rabbitmq:3.13.6
+#rabbitmq:3.13.6
 #---------- memcached ----------
-memcached:1.6.29
+#memcached:1.6.29
 #---------- tomcat ----------
 #tomcat:9.0.89-jdk8
 #---------- jetty ----------
-jetty:9.4.51
-jetty:9.4.51-jdk8
-jetty:9.4.51-jdk11
+#jetty:9.4.51
+#jetty:9.4.51-jdk8
+#jetty:9.4.51-jdk11
 #---------- openjdk ----------
 #openjdk:8u201-alpine
 #---------- python ----------
@@ -53,9 +53,9 @@ jetty:9.4.51-jdk11
 #---------- golang ----------
 #golang:1.22.4
 #---------- rust ----------
-rust:1.80.0
+#rust:1.80.0
 #---------- php ----------
-php:5.6.40-apache
+#php:5.6.40-apache
 #---------- node ----------
 #node:12
 #node:12.22.12
@@ -75,12 +75,12 @@ php:5.6.40-apache
 #----------- verdaccio ---------
 #verdaccio/verdaccio:5.31.1
 #----------- nexus3 ---------
-sonatype/nexus3:3.70.1
+#sonatype/nexus3:3.70.1
 #----------- gitea ---------
 #gitea/gitea:1.22.1
 #gitea/gitea:1.22.1-rootless
 #----------- portainer ---------
-portainer/portainer-ce:2.20.3
+#portainer/portainer-ce:2.20.3
 #----------- drone ---------
 #drone/drone:2.24.0
 #drone/cli:1.8.0
@@ -91,6 +91,8 @@ portainer/portainer-ce:2.20.3
 #----------- calibre-web ---------
 #linuxserver/calibre-web:0.6.22
 #----------- openvscode-server ---------
-gitpod/openvscode-server:1.91.1
+#gitpod/openvscode-server:1.91.1
 #----------- traefik ---------
-traefik:v3.1.0
+#traefik:v3.1.0
+#----------- devcontainers ---------
+mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
