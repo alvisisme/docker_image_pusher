@@ -96,6 +96,6 @@
 #traefik:v3.1.0
 #----------- devcontainers ---------
 mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
-mcr.microsoft.com/devcontainers/javascript-node:1-8-bullseye
-mcr.microsoft.com/devcontainers/javascript-node:1-21-bullseye
+mcr.microsoft.com/devcontainers/java:1-8-bullseye
+mcr.microsoft.com/devcontainers/java:1-21-bullseye
 
