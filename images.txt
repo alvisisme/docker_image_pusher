@@ -28,6 +28,8 @@
 #---------- mongo ----------
 #mongo:4.2.22
 #mongo-express:1.0.2-20
+#----------- minio ---------
+minio/minio:RELEASE.2024-08-03T04-33-23Z
 #---------- redis ----------
 #redis:7.2.5
 #---------- nginx ----------
@@ -95,7 +97,6 @@
 #----------- traefik ---------
 #traefik:v3.1.0
 #----------- devcontainers ---------
-mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
-mcr.microsoft.com/devcontainers/java:1-8-bullseye
-mcr.microsoft.com/devcontainers/java:1-21-bullseye
-
+#mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
+#mcr.microsoft.com/devcontainers/java:1-8-bullseye
+#mcr.microsoft.com/devcontainers/java:1-21-bullseye
