@@ -100,3 +100,5 @@ minio/minio:RELEASE.2024-08-03T04-33-23Z
 #mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
 #mcr.microsoft.com/devcontainers/java:1-8-bullseye
 #mcr.microsoft.com/devcontainers/java:1-21-bullseye
+#----------- coturn ---------
+coturn/coturn:4.6.2
