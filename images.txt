@@ -99,8 +99,8 @@ minio/minio:RELEASE.2024-08-03T04-33-23Z
 #----------- devcontainers ---------
 #mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
 #mcr.microsoft.com/devcontainers/java:1-8-bullseye
-#----------- filebrowser ---------
-filebrowser/filebrowser:v2.31.1
 #mcr.microsoft.com/devcontainers/java:1-21-bullseye
 #----------- coturn ---------
-coturn/coturn:4.6.2
+#coturn/coturn:4.6.2
+#----------- filebrowser ---------
+filebrowser/filebrowser:v2.31.1
