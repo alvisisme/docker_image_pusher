@@ -103,4 +103,6 @@ minio/minio:RELEASE.2024-08-03T04-33-23Z
 #----------- coturn ---------
 #coturn/coturn:4.6.2
 #----------- filebrowser ---------
-filebrowser/filebrowser:v2.31.1
+#filebrowser/filebrowser:v2.31.1
+#----------- android ---------
+mingc/android-build-box:1.28.0
