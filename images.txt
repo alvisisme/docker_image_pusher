@@ -16,6 +16,7 @@
 #caddy:2.8.4
 #--------- mysql -----------
 #mysql:5.5.54
+mysql:5.7.23
 #mysql:5.7.43
 #--------- adminer -----------
 #adminer:4.8.1
@@ -32,6 +33,7 @@
 minio/minio:RELEASE.2024-08-03T04-33-23Z
 #---------- redis ----------
 #redis:7.2.5
+redis:4.0.11-alpine
 #---------- nginx ----------
 #nginx:1.26.1
 #---------- maven ----------
@@ -105,4 +107,4 @@ minio/minio:RELEASE.2024-08-03T04-33-23Z
 #----------- filebrowser ---------
 #filebrowser/filebrowser:v2.31.1
 #----------- android ---------
-mingc/android-build-box:1.28.0
+#mingc/android-build-box:1.28.0
