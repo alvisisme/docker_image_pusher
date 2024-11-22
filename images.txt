@@ -108,3 +108,5 @@ redis:4.0.11-alpine
 #filebrowser/filebrowser:v2.31.1
 #----------- android ---------
 #mingc/android-build-box:1.28.0
+#----------- cordova android ---------
+alvisisme/cordova-android:12.0.0
