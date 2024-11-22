@@ -79,7 +79,8 @@
 #----------- verdaccio ---------
 #verdaccio/verdaccio:5.31.1
 #----------- nexus3 ---------
-sonatype/nexus3:3.40.0
+#sonatype/nexus3:3.40.0
+sonatype/nexus3:3.41.0
 #sonatype/nexus3:3.70.1
 #sonatype/nexus3:3.74.0
 #----------- gitea ---------
