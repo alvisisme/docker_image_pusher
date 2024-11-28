@@ -113,3 +113,6 @@ sonatype/nexus3:3.41.0
 #mingc/android-build-box:1.28.0
 #----------- cordova android ---------
 #alvisisme/cordova-android:12.0.0
+# ------ code push server ----
+tablee/code-push-server:v0.5.2
+
