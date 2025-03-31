@@ -80,7 +80,7 @@
 #verdaccio/verdaccio:5.31.1
 #----------- nexus3 ---------
 #sonatype/nexus3:3.40.0
-sonatype/nexus3:3.41.0
+#sonatype/nexus3:3.41.0
 #sonatype/nexus3:3.70.1
 #sonatype/nexus3:3.74.0
 #----------- gitea ---------
@@ -116,4 +116,7 @@ sonatype/nexus3:3.41.0
 # ------ code push server ----
 # tablee/code-push-server:v0.5.2
 # ------ nacos ----
-nacos/nacos-server:v2.5.1
+#nacos/nacos-server:v2.5.1
+# ------ gitlab -----
+gitlab/gitlab-ce:17.10.1-ce.0
+gitlab/gitlab-runner:v17.10.1
