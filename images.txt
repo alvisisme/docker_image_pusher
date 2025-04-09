@@ -61,22 +61,22 @@
 #---------- php ----------
 #php:5.6.40-apache
 #---------- node ----------
-node:12
+#node:12
 #node:12.22.12
-node:14
+#node:14
 #node:14.21.3
-node:16
+#node:16
 #node:16.20.2
-node:18
+#node:18
 #node:18.20.3
 #node:18.20.4
-node:18.20.8
-node:20
+#node:18.20.8
+#node:20
 #node:20.15.1
-node:20.19.0
-node:22
+#node:20.19.0
+#node:22
 #node:22.4.1
-node:22.14.0
+#node:22.14.0
 #---------- linuxserver ----------
 #linuxserver/code-server:4.91.0
 #----------- verdaccio ---------
@@ -98,6 +98,26 @@ node:22.14.0
 #drone/git:linux-amd64
 #drone/drone-runner-docker:1.8.3
 #drone/drone-runner-docker:linux-amd64
+appleboy/drone-git-push
+plugins/docker
+meltwater/drone-cache:dev
+appleboy/drone-scp
+plugins/gitea-release
+cschlosser/drone-ftps
+plugins/email
+plugins/gh-pages
+plugins/npm
+harnesscommunity/drone-nexus-publish
+appleboy/drone-ssh
+aosapps/drone-sonar-plugin
+kytay/sonar-node-plugin
+drillster/drone-volume-cache
+vividboarder/drone-webdav
+plugins/webhook
+plugins/s3
+plugins/s3-sync:1
+plugins/s3-cache
+plugins/ansible:3
 #----------- calibre-web ---------
 #linuxserver/calibre-web:0.6.22
 #----------- openvscode-server ---------
