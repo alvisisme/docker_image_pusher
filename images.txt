@@ -98,27 +98,27 @@
 #drone/git:linux-amd64
 #drone/drone-runner-docker:1.8.3
 #drone/drone-runner-docker:linux-amd64
-appleboy/drone-git-push
-plugins/docker
-meltwater/drone-cache:dev
-appleboy/drone-scp
-plugins/gitea-release
-cschlosser/drone-ftps
-plugins/email
-plugins/gh-pages
-plugins/npm
+#appleboy/drone-git-push
+#plugins/docker
+#meltwater/drone-cache:dev
+#appleboy/drone-scp
+#plugins/gitea-release
+#cschlosser/drone-ftps
+#plugins/email
+#plugins/gh-pages
+#plugins/npm
 #harnesscommunity/drone-nexus-publish
-harnesscommunity/publish-nexus-repository:1.1.1
-appleboy/drone-ssh
-aosapps/drone-sonar-plugin
-kytay/sonar-node-plugin
-drillster/drone-volume-cache
-vividboarder/drone-webdav
-plugins/webhook
-plugins/s3
-plugins/s3-sync:1
-plugins/s3-cache
-plugins/ansible:3
+#harnesscommunity/publish-nexus-repository:1.1.1
+#appleboy/drone-ssh
+#aosapps/drone-sonar-plugin
+#kytay/sonar-node-plugin
+#drillster/drone-volume-cache
+#vividboarder/drone-webdav
+#plugins/webhook
+#plugins/s3
+#plugins/s3-sync:1
+#plugins/s3-cache
+#plugins/ansible:3
 #----------- calibre-web ---------
 #linuxserver/calibre-web:0.6.22
 #----------- openvscode-server ---------
@@ -144,3 +144,5 @@ plugins/ansible:3
 # ------ gitlab -----
 #gitlab/gitlab-ce:17.10.1-ce.0
 #gitlab/gitlab-runner:v17.10.1
+# ------ buildkit -----
+moby/buildkit:buildx-stable-1
