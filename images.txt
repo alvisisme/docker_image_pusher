@@ -1,15 +1,15 @@
 #-------- ubuntu ------------
-#ubuntu:16.04
-#ubuntu:18.04
-#ubuntu:20.04
-#ubuntu:22.04
-#ubuntu:24.04
+ubuntu:16.04
+ubuntu:18.04
+ubuntu:20.04
+ubuntu:22.04
+ubuntu:24.04
 #--------- debian -----------
-#debian:10
-#debian:11
-#debian:12
+debian:10
+debian:11
+debian:12
 #--------- centos -----------
-#centos:centos7.9.2009
+centos:centos7.9.2009
 #--------- docker in docker -----------
 #docker:26.1.4-dind-rootless
 #--------- caddy -----------
@@ -129,6 +129,7 @@
 #mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
 #mcr.microsoft.com/devcontainers/java:1-8-bullseye
 #mcr.microsoft.com/devcontainers/java:1-21-bullseye
+mcr.microsoft.com/devcontainers/base:jammy
 #----------- coturn ---------
 #coturn/coturn:4.6.2
 #----------- filebrowser ---------
@@ -145,4 +146,5 @@
 #gitlab/gitlab-ce:17.10.1-ce.0
 #gitlab/gitlab-runner:v17.10.1
 # ------ buildkit -----
-moby/buildkit:buildx-stable-1
+# 此镜像有问题
+#moby/buildkit:buildx-stable-1
