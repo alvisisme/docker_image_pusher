@@ -92,24 +92,25 @@ jobs:
                 image=${image_part##*/} # 提取 image_part 中最后一个 / 之后的部分。
                 # 提取 namespace
                 namespace_part=${image_part%/*} # 去掉 image_part 中最后一个 / 之后的部分。
+
+                echo "namespace_part" $namespace_part
+                if [[ $namespace_part == */* ]]; then
+                    # 提取 namespace
+                    namespace=${namespace_part##*/} # 提取 namespace 中最后一个 / 之后的部分。
+                    # 提取 library
+                    library=${namespace_part%/*} # 去掉 namespace 中最后一个 / 之后的部分。
+                else 
+                    # 提取 library
+                    namespace=${namespace_part##*/} # 提取 library_part 中最后一个 / 之后的部分。
+            
+                    if [ -z "$namespace" ]; then
+                        namespace="library"
+                    fi
+                fi
             else
                 # 提取 image
                 image=${image_part} # 提取 image_part 中最后一个 / 之后的部分。
-            fi
-        
-            # echo "namespace_part" $namespace_part
-            if [[ $namespace_part == */* ]]; then
-                # 提取 namespace
-                namespace=${namespace_part##*/} # 提取 namespace 中最后一个 / 之后的部分。
-                # 提取 library
-                library=${namespace_part%/*} # 去掉 namespace 中最后一个 / 之后的部分。
-            else 
-                # 提取 library
-                namespace=${namespace_part##*/} # 提取 library_part 中最后一个 / 之后的部分。
-        
-                if [ -z "$namespace" ]; then
-                    namespace="library"
-                fi
+                namespace="library"
             fi
         
             old_image="$library/$namespace/$image:$tag"
