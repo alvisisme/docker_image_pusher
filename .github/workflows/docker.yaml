@@ -112,13 +112,14 @@ jobs:
                 fi
             fi
         
-            echo "old_image: $line"
+            old_image="$library/$namespace/$image:$tag"
+            echo "old_image: $old_image"
         
-            echo " library:"   $library
-            echo " namespace:" $namespace
-            echo " image:"     $image
-            echo " tag:"       $tag
-            echo " platform:"  $platform
+            # echo " library:"   $library
+            # echo " namespace:" $namespace
+            # echo " image:"     $image
+            # echo " tag:"       $tag
+            # echo " platform:"  $platform
         
             # # 生成唯一标识符
             unique_identifier="${library}_${namespace}_${image}_${tag}_${platform//\//-}"
@@ -128,9 +129,11 @@ jobs:
         
             echo "docker pull $line"
             docker pull $line
-            echo "docker tag $image $new_image"
-            docker tag $image $new_image
+        
+            echo "docker tag $old_image $new_image"
+            docker tag $old_image $new_image
+        
             echo "docker push $new_image"
             docker push $new_image
-            
+
         done < images.txt
