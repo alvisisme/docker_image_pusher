@@ -122,7 +122,10 @@ jobs:
             # echo " platform:"  $platform
         
             # # 生成唯一标识符
-            unique_identifier="${library}_${namespace}_${image}_${tag}_${platform//\//-}"
+            unique_identifier="${library}_${namespace}_${image}:${tag}"
+            if [[ $platform != "linux/amd64" ]]; then
+                unique_identifier="${unique_identifier}_${platform//\//-}"
+            fi
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$unique_identifier"
         
             echo "new_image: $unique_identifier"
