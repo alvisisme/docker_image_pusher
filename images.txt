@@ -1,157 +1,157 @@
 #-------- ubuntu ------------
-ubuntu:16.04
-ubuntu:16.04 --platform linux/arm64
-ubuntu:18.04
-ubuntu:18.04 --platform linux/arm64
-ubuntu:20.04
-ubuntu:20.04 --platform linux/arm64
-ubuntu:22.04
-ubuntu:22.04 --platform linux/arm64
-ubuntu:24.04
-ubuntu:24.04 --platform linux/arm64
+#ubuntu:16.04
+#ubuntu:16.04 --platform linux/arm64
+#ubuntu:18.04
+#ubuntu:18.04 --platform linux/arm64
+#ubuntu:20.04
+#ubuntu:20.04 --platform linux/arm64
+#ubuntu:22.04
+#ubuntu:22.04 --platform linux/arm64
+#ubuntu:24.04
+#ubuntu:24.04 --platform linux/arm64
 #--------- debian -----------
-debian:10
-debian:10 --platform linux/arm64
-debian:11
-debian:11 --platform linux/arm64
-debian:12
-debian:12 --platform linux/arm64
+#debian:10
+#debian:10 --platform linux/arm64
+#debian:11
+#debian:11 --platform linux/arm64
+#debian:12
+#debian:12 --platform linux/arm64
 #--------- centos -----------
-centos:centos7.9.2009
+#centos:centos7.9.2009
 #--------- docker in docker -----------
-docker:26.1.4-dind-rootless
+#docker:26.1.4-dind-rootless
 #--------- caddy -----------
-caddy:2.8.4
+#caddy:2.8.4
 #--------- mysql -----------
-mysql:5.5.54
-mysql:5.7.23
-mysql:5.7.43
+#mysql:5.5.54
+#mysql:5.7.23
+#mysql:5.7.43
 #--------- adminer -----------
-adminer:4.8.1
+#adminer:4.8.1
 #--------- phpmyadmin -----------
-phpmyadmin:5.2.1
+#phpmyadmin:5.2.1
 #--------- mariadb -----------
-mariadb:11.2.4
+#mariadb:11.2.4
 #--------- postgres -----------
-postgres:12.17
+#postgres:12.17
 #---------- mongo ----------
-mongo:4.2.22
-mongo-express:1.0.2-20
+#mongo:4.2.22
+#mongo-express:1.0.2-20
 #----------- minio ---------
-minio/minio:RELEASE.2024-08-03T04-33-23Z
+#minio/minio:RELEASE.2024-08-03T04-33-23Z
 #---------- redis ----------
-redis:7.2.5
-redis:4.0.11-alpine
+#redis:7.2.5
+#redis:4.0.11-alpine
 #---------- nginx ----------
-nginx:1.26.1
+#nginx:1.26.1
 #---------- maven ----------
-maven:3.9.7
+#maven:3.9.7
 #---------- httpd ----------
-httpd:2.4.62
+#httpd:2.4.62
 #---------- rabbitmq ----------
-rabbitmq:3.13.6
+#rabbitmq:3.13.6
 #---------- memcached ----------
-memcached:1.6.29
+#memcached:1.6.29
 #---------- tomcat ----------
-tomcat:9.0.89-jdk8
+#tomcat:9.0.89-jdk8
 #---------- jetty ----------
-jetty:9.4.51
-jetty:9.4.51-jdk8
-jetty:9.4.51-jdk11
+#jetty:9.4.51
+#jetty:9.4.51-jdk8
+#jetty:9.4.51-jdk11
 #---------- openjdk ----------
-openjdk:8u201-alpine
+#openjdk:8u201-alpine
 #---------- python ----------
-python:3.12.4
+#python:3.12.4
 #---------- golang ----------
-golang:1.22.4
+#golang:1.22.4
 #---------- rust ----------
-rust:1.80.0
+#rust:1.80.0
 #---------- php ----------
-php:5.6.40-apache
+#php:5.6.40-apache
 #---------- node ----------
-node:12
-node:12.22.12
-node:14
-node:14.21.3
-node:16
-node:16.20.2
-node:18
-node:18.20.3
-node:18.20.4
-node:18.20.8
-node:20
-node:20.15.1
-node:20.19.0
-node:22
-node:22.4.1
-node:22.14.0
+#node:12
+#node:12.22.12
+#node:14
+#node:14.21.3
+#node:16
+#node:16.20.2
+#node:18
+#node:18.20.3
+#node:18.20.4
+#node:18.20.8
+#node:20
+#node:20.15.1
+#node:20.19.0
+#node:22
+#node:22.4.1
+#node:22.14.0
 #---------- linuxserver ----------
-linuxserver/code-server:4.91.0
+#linuxserver/code-server:4.91.0
 #----------- verdaccio ---------
-verdaccio/verdaccio:5.31.1
+#verdaccio/verdaccio:5.31.1
 #----------- nexus3 ---------
-sonatype/nexus3:3.40.0
-sonatype/nexus3:3.41.0
-sonatype/nexus3:3.70.1
-sonatype/nexus3:3.74.0
+#sonatype/nexus3:3.40.0
+#sonatype/nexus3:3.41.0
+#sonatype/nexus3:3.70.1
+#sonatype/nexus3:3.74.0
 #----------- gitea ---------
-gitea/gitea:1.22.1
-gitea/gitea:1.22.1-rootless
+#gitea/gitea:1.22.1
+#gitea/gitea:1.22.1-rootless
 #----------- portainer ---------
-portainer/portainer-ce:2.20.3
+#portainer/portainer-ce:2.20.3
 #----------- drone ---------
-drone/drone:2.24.0
-drone/cli:1.8.0
-drone/git:1.2.1
-drone/git:linux-amd64
-drone/drone-runner-docker:1.8.3
-drone/drone-runner-docker:linux-amd64
-appleboy/drone-git-push
-plugins/docker
-meltwater/drone-cache:dev
-appleboy/drone-scp
-plugins/gitea-release
-cschlosser/drone-ftps
-plugins/email
-plugins/gh-pages
-plugins/npm
-harnesscommunity/publish-nexus-repository:1.1.1
-appleboy/drone-ssh
-aosapps/drone-sonar-plugin
-kytay/sonar-node-plugin
-drillster/drone-volume-cache
-vividboarder/drone-webdav
-plugins/webhook
-plugins/s3
-plugins/s3-sync:1
-plugins/s3-cache
-plugins/ansible:3
+#drone/drone:2.24.0
+#drone/cli:1.8.0
+#drone/git:1.2.1
+#drone/git:linux-amd64
+#drone/drone-runner-docker:1.8.3
+#drone/drone-runner-docker:linux-amd64
+#appleboy/drone-git-push
+#plugins/docker
+#meltwater/drone-cache:dev
+#appleboy/drone-scp
+#plugins/gitea-release
+#cschlosser/drone-ftps
+#plugins/email
+#plugins/gh-pages
+#plugins/npm
+#harnesscommunity/publish-nexus-repository:1.1.1
+#appleboy/drone-ssh
+#aosapps/drone-sonar-plugin
+#kytay/sonar-node-plugin
+#drillster/drone-volume-cache
+#vividboarder/drone-webdav
+#plugins/webhook
+#plugins/s3
+#plugins/s3-sync:1
+#plugins/s3-cache
+#plugins/ansible:3
 #----------- calibre-web ---------
-linuxserver/calibre-web:0.6.22
+#linuxserver/calibre-web:0.6.22
 #----------- openvscode-server ---------
-gitpod/openvscode-server:1.91.1
+#gitpod/openvscode-server:1.91.1
 #----------- traefik ---------
-traefik:v3.1.0
+#traefik:v3.1.0
 #----------- devcontainers ---------
-mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
-mcr.microsoft.com/devcontainers/java:1-8-bullseye
-mcr.microsoft.com/devcontainers/java:1-21-bullseye
-mcr.microsoft.com/devcontainers/base:jammy
+#mcr.microsoft.com/devcontainers/javascript-node:1-18-bullseye
+#mcr.microsoft.com/devcontainers/java:1-8-bullseye
+#mcr.microsoft.com/devcontainers/java:1-21-bullseye
+#mcr.microsoft.com/devcontainers/base:jammy
 #----------- coturn ---------
-coturn/coturn:4.6.2
+#coturn/coturn:4.6.2
 #----------- filebrowser ---------
-filebrowser/filebrowser:v2.31.1
+#filebrowser/filebrowser:v2.31.1
 #----------- android ---------
-mingc/android-build-box:1.28.0
+#mingc/android-build-box:1.28.0
 #----------- cordova android ---------
-alvisisme/cordova-android:12.0.0
+#alvisisme/cordova-android:12.0.0
 # ------ code push server ----
-tablee/code-push-server:v0.5.2
+#tablee/code-push-server:v0.5.2
 # ------ nacos ----
-nacos/nacos-server:v2.5.1
+#nacos/nacos-server:v2.5.1
 # ------ gitlab -----
-gitlab/gitlab-ce:17.10.1-ce.0
-gitlab/gitlab-runner:v17.10.1
+#gitlab/gitlab-ce:17.10.1-ce.0
+#gitlab/gitlab-runner:v17.10.1
 # ------ buildkit -----
 # 此镜像有问题
-#moby/buildkit:buildx-stable-1
+moby/buildkit:buildx-stable-1
