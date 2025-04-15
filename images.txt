@@ -115,7 +115,6 @@ cschlosser/drone-ftps
 plugins/email
 plugins/gh-pages
 plugins/npm
-harnesscommunity/drone-nexus-publish
 harnesscommunity/publish-nexus-repository:1.1.1
 appleboy/drone-ssh
 aosapps/drone-sonar-plugin
