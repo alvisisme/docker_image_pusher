@@ -141,7 +141,7 @@ jobs:
             docker push $new_image
 
             # 特殊处理，不用清理，避免影响环境 buildx 本身
-            if [[ $old_image == "moby/buildkit:buildx-stable-1" ]]; then
+            if [[ $old_image == "docker.io/moby/buildkit:buildx-stable-1" ]]; then
                 continue
             fi
             
