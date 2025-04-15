@@ -140,6 +140,11 @@ jobs:
             echo "docker push $new_image"
             docker push $new_image
 
+            # 特殊处理，不用清理，避免影响环境 buildx 本身
+            if [[ $old_image == "moby/buildkit:buildx-stable-1" ]]; then
+                continue
+            fi
+            
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
