@@ -154,4 +154,6 @@
 #gitlab/gitlab-runner:v17.10.1
 # ------ buildkit -----
 # 此镜像有问题
-moby/buildkit:buildx-stable-1
+#moby/buildkit:buildx-stable-1
+# ------ sonar -----
+sonarsource/sonar-scanner-cli:10.0.3.1430_5.0.1
