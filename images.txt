@@ -44,9 +44,9 @@
 #redis:4.0.11-alpine
 #---------- nginx ----------
 #nginx:1.26.1
-nginx:1.27.4
-nginx:1.27.4-alpine
-nginx:1.27.4-alpine-slim
+#nginx:1.27.4
+#nginx:1.27.4-alpine
+#nginx:1.27.4-alpine-slim
 #---------- maven ----------
 #maven:3.9.7
 #---------- httpd ----------
@@ -66,13 +66,15 @@ nginx:1.27.4-alpine-slim
 #---------- python ----------
 #python:3.12.4
 #---------- golang ----------
-golang:1.20.14
-golang:1.20.14-bullseye
+golang
+golang:1.17
+#golang:1.20.14
+#golang:1.20.14-bullseye
 #golang:1.22.4
-golang:1.24.2-bookworm
-golang:1.24.2-bullseye
-golang:1.24.2-alpine3.21
-golang:1.24.2-alpine
+#golang:1.24.2-bookworm
+#golang:1.24.2-bullseye
+#golang:1.24.2-alpine3.21
+#golang:1.24.2-alpine
 #---------- rust ----------
 #rust:1.80.0
 #---------- php ----------
@@ -165,3 +167,9 @@ golang:1.24.2-alpine
 #moby/buildkit:buildx-stable-1
 # ------ sonar -----
 #sonarsource/sonar-scanner-cli:10.0.3.1430_5.0.1
+# ------ k8s -----
+registry.k8s.io/kube-apiserver:v1.33.0
+registry.k8s.io/kube-controller-manager:v1.33.0
+registry.k8s.io/kube-proxy:v1.33.0
+registry.k8s.io/kube-scheduler:v1.33.0
+registry.k8s.io/conformance:v1.33.0
