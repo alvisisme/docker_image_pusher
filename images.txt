@@ -43,6 +43,7 @@
 #redis:7.2.5
 #redis:4.0.11-alpine
 #---------- nginx ----------
+nginx
 #nginx:1.26.1
 #nginx:1.27.4
 #nginx:1.27.4-alpine
@@ -64,10 +65,14 @@
 #---------- openjdk ----------
 #openjdk:8u201-alpine
 #---------- python ----------
+python
+python:3.9.19
+python:3.9.19-alpine
+python:3.9.19-bullseye
 #python:3.12.4
 #---------- golang ----------
 golang
-golang:1.17
+#golang:1.17
 #golang:1.20.14
 #golang:1.20.14-bullseye
 #golang:1.22.4
@@ -80,6 +85,7 @@ golang:1.17
 #---------- php ----------
 #php:5.6.40-apache
 #---------- node ----------
+node
 #node:12
 #node:12.22.12
 #node:14
@@ -168,8 +174,8 @@ golang:1.17
 # ------ sonar -----
 #sonarsource/sonar-scanner-cli:10.0.3.1430_5.0.1
 # ------ k8s -----
-registry.k8s.io/kube-apiserver:v1.33.0
-registry.k8s.io/kube-controller-manager:v1.33.0
-registry.k8s.io/kube-proxy:v1.33.0
-registry.k8s.io/kube-scheduler:v1.33.0
-registry.k8s.io/conformance:v1.33.0
+#registry.k8s.io/kube-apiserver:v1.33.0
+#registry.k8s.io/kube-controller-manager:v1.33.0
+#registry.k8s.io/kube-proxy:v1.33.0
+#registry.k8s.io/kube-scheduler:v1.33.0
+#registry.k8s.io/conformance:v1.33.0
