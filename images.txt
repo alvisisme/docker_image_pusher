@@ -10,12 +10,30 @@
 #ubuntu:24.04
 #ubuntu:24.04 --platform linux/arm64
 #--------- debian -----------
-#debian:10
-#debian:10 --platform linux/arm64
-#debian:11
-#debian:11 --platform linux/arm64
-#debian:12
-#debian:12 --platform linux/arm64
+debian:10
+debian:10-slim
+debian:buster
+debian:buster-slim
+debian:10 --platform linux/arm64
+debian:10-slim --platform linux/arm64
+debian:buster --platform linux/arm64
+debian:buster-slim --platform linux/arm64
+debian:11
+debian:11-slim
+debian:bullseye
+debian:bullseye-slim
+debian:11 --platform linux/arm64
+debian:11-slim --platform linux/arm64
+debian:bullseye --platform linux/arm64
+debian:bullseye-slim --platform linux/arm64
+debian:12
+debian:12-slim
+debian:bookworm
+debian:bookworm-slim
+debian:12 --platform linux/arm64
+debian:12-slim --platform linux/arm64
+debian:bookworm --platform linux/arm64
+debian:bookworm-slim --platform linux/arm64
 #--------- centos -----------
 #centos:centos7.9.2009
 #--------- docker in docker -----------
