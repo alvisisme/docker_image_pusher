@@ -66,9 +66,10 @@ nginx
 #openjdk:8u201-alpine
 #---------- python ----------
 python
-python:3.9.19
-python:3.9.19-alpine
-python:3.9.19-bullseye
+#python:3.9.19
+#python:3.9.19-alpine
+#python:3.9.19-bullseye
+python:3.9.19-slim-bullseye
 #python:3.12.4
 #---------- golang ----------
 golang
