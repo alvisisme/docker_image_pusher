@@ -10,14 +10,14 @@
 #ubuntu:24.04
 #ubuntu:24.04 --platform linux/arm64
 #--------- debian -----------
-debian:10
-debian:10-slim
-debian:buster
-debian:buster-slim
-debian:10 --platform linux/arm64
-debian:10-slim --platform linux/arm64
-debian:buster --platform linux/arm64
-debian:buster-slim --platform linux/arm64
+#debian:10
+#debian:10-slim
+#debian:buster
+#debian:buster-slim
+#debian:10 --platform linux/arm64
+#debian:10-slim --platform linux/arm64
+#debian:buster --platform linux/arm64
+#debian:buster-slim --platform linux/arm64
 debian:11
 debian:11-slim
 debian:bullseye
@@ -198,3 +198,5 @@ node
 #registry.k8s.io/kube-proxy:v1.33.0
 #registry.k8s.io/kube-scheduler:v1.33.0
 #registry.k8s.io/conformance:v1.33.0
+# ------ mailserver -----
+mailserver/docker-mailserver:15.0.2
