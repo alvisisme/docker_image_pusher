@@ -7,8 +7,8 @@
 #ubuntu:20.04 --platform linux/arm64
 #ubuntu:22.04
 #ubuntu:22.04 --platform linux/arm64
-#ubuntu:24.04
-#ubuntu:24.04 --platform linux/arm64
+ubuntu:24.04
+ubuntu:24.04 --platform linux/arm64
 #--------- debian -----------
 #debian:10
 #debian:10-slim
@@ -121,6 +121,10 @@ node
 #node:22
 #node:22.4.1
 #node:22.14.0
+#---------- bun ----------
+oven/bun:1.2.12
+oven/bun:1.2.12-debian
+oven/bun:1.2.12-alpine
 #---------- linuxserver ----------
 #linuxserver/code-server:4.91.0
 #----------- verdaccio ---------
@@ -199,4 +203,4 @@ node
 #registry.k8s.io/kube-scheduler:v1.33.0
 #registry.k8s.io/conformance:v1.33.0
 # ------ mailserver -----
-mailserver/docker-mailserver:15.0.2
+#mailserver/docker-mailserver:15.0.2
