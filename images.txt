@@ -18,22 +18,22 @@ ubuntu:24.04 --platform linux/arm64
 #debian:10-slim --platform linux/arm64
 #debian:buster --platform linux/arm64
 #debian:buster-slim --platform linux/arm64
-debian:11
-debian:11-slim
-debian:bullseye
-debian:bullseye-slim
-debian:11 --platform linux/arm64
-debian:11-slim --platform linux/arm64
-debian:bullseye --platform linux/arm64
-debian:bullseye-slim --platform linux/arm64
-debian:12
-debian:12-slim
-debian:bookworm
-debian:bookworm-slim
-debian:12 --platform linux/arm64
-debian:12-slim --platform linux/arm64
-debian:bookworm --platform linux/arm64
-debian:bookworm-slim --platform linux/arm64
+#debian:11
+#debian:11-slim
+#debian:bullseye
+#debian:bullseye-slim
+#debian:11 --platform linux/arm64
+#debian:11-slim --platform linux/arm64
+#debian:bullseye --platform linux/arm64
+#debian:bullseye-slim --platform linux/arm64
+#debian:12
+#debian:12-slim
+#debian:bookworm
+#debian:bookworm-slim
+#debian:12 --platform linux/arm64
+#debian:12-slim --platform linux/arm64
+#debian:bookworm --platform linux/arm64
+#debian:bookworm-slim --platform linux/arm64
 #--------- centos -----------
 #centos:centos7.9.2009
 #--------- docker in docker -----------
@@ -68,23 +68,23 @@ nginx
 #nginx:1.27.4-alpine-slim
 #---------- maven ----------
 #maven:3.9.7
-maven:3.8.6
-maven:3-jdk-8
-maven:3-jdk-8-slim
-maven:3.8.6-jdk-8
-maven:3.8.6-jdk-8-slim
-maven:3-openjdk-8
-maven:3-openjdk-8-slim
-maven:3.8.6-openjdk-8
-maven:3.8.6-openjdk-8-slim
-maven:3-jdk-11
-maven:3-jdk-11-slim
-maven:3.8.6-jdk-11
-maven:3.8.6-jdk-11-slim
-maven:3-openjdk-11
-maven:3-openjdk-11-slim
-maven:3.8.6-openjdk-11
-maven:3.8.6-openjdk-11-slim
+#maven:3.8.6
+#maven:3-jdk-8
+#maven:3-jdk-8-slim
+#maven:3.8.6-jdk-8
+#maven:3.8.6-jdk-8-slim
+#maven:3-openjdk-8
+#maven:3-openjdk-8-slim
+#maven:3.8.6-openjdk-8
+#maven:3.8.6-openjdk-8-slim
+#maven:3-jdk-11
+#maven:3-jdk-11-slim
+#maven:3.8.6-jdk-11
+#maven:3.8.6-jdk-11-slim
+#maven:3-openjdk-11
+#maven:3-openjdk-11-slim
+#maven:3.8.6-openjdk-11
+#maven:3.8.6-openjdk-11-slim
 #---------- httpd ----------
 #httpd:2.4.62
 #---------- rabbitmq ----------
@@ -139,9 +139,9 @@ node
 #node:22.4.1
 #node:22.14.0
 #---------- bun ----------
-oven/bun:1.2.12
-oven/bun:1.2.12-debian
-oven/bun:1.2.12-alpine
+#oven/bun:1.2.12
+#oven/bun:1.2.12-debian
+#oven/bun:1.2.12-alpine
 #---------- linuxserver ----------
 #linuxserver/code-server:4.91.0
 #----------- verdaccio ---------
@@ -221,3 +221,5 @@ oven/bun:1.2.12-alpine
 #registry.k8s.io/conformance:v1.33.0
 # ------ mailserver -----
 #mailserver/docker-mailserver:15.0.2
+# ------ mailpit -----
+axllent/mailpit:v1.24.2
