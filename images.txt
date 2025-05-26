@@ -224,3 +224,5 @@ registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.
 #mailserver/docker-mailserver:15.0.2
 # ------ mailpit -----
 #axllent/mailpit:v1.24.2
+# ------ harness -----
+harness/harness:3.2.0
