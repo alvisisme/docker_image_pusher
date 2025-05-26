@@ -209,7 +209,8 @@ node
 # ------ gitlab -----
 #gitlab/gitlab-ce:17.10.1-ce.0
 #gitlab/gitlab-runner:v17.10.1
-registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1
+# 下面格式暂时无法识别 
+#registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1
 # ------ buildkit -----
 #moby/buildkit:buildx-stable-1
 # ------ sonar -----
