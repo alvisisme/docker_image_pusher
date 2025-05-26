@@ -194,6 +194,7 @@ node
 #mcr.microsoft.com/devcontainers/java:1-8-bullseye
 #mcr.microsoft.com/devcontainers/java:1-21-bullseye
 #mcr.microsoft.com/devcontainers/base:jammy
+mcr.microsoft.com/devcontainers/base:dev-ubuntu-24.04
 #----------- coturn ---------
 #coturn/coturn:4.6.2
 #----------- filebrowser ---------
@@ -226,4 +227,4 @@ node
 # ------ mailpit -----
 #axllent/mailpit:v1.24.2
 # ------ harness -----
-harness/harness:3.2.0
+#harness/harness:3.2.0
