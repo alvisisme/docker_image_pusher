@@ -38,6 +38,7 @@ ubuntu:24.04 --platform linux/arm64
 #centos:centos7.9.2009
 #--------- docker in docker -----------
 #docker:26.1.4-dind-rootless
+docker:26.1.4-dind
 #--------- caddy -----------
 #caddy:2.8.4
 #--------- mysql -----------
@@ -104,7 +105,7 @@ python
 #python:3.9.19
 #python:3.9.19-alpine
 #python:3.9.19-bullseye
-python:3.9.19-slim-bullseye
+#python:3.9.19-slim-bullseye
 #python:3.12.4
 #---------- golang ----------
 golang
