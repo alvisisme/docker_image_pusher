@@ -1,5 +1,5 @@
 #-------- homepage ------------
-benphelps/homepage:v0.6.20
+ghcr.io/gethomepage/homepage:v1.3.2
 #-------- ubuntu ------------
 #ubuntu:16.04
 #ubuntu:16.04 --platform linux/arm64
