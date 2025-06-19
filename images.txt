@@ -1,5 +1,5 @@
 #-------- homepage ------------
-ghcr.io/gethomepage/homepage:v0.7.2
+#ghcr.io/gethomepage/homepage:v0.7.2
 #ghcr.io/gethomepage/homepage:v1.3.2
 #-------- ubuntu ------------
 #ubuntu:16.04
@@ -10,8 +10,8 @@ ghcr.io/gethomepage/homepage:v0.7.2
 #ubuntu:20.04 --platform linux/arm64
 #ubuntu:22.04
 #ubuntu:22.04 --platform linux/arm64
-ubuntu:24.04
-ubuntu:24.04 --platform linux/arm64
+#ubuntu:24.04
+#ubuntu:24.04 --platform linux/arm64
 #--------- debian -----------
 #debian:10
 #debian:10-slim
@@ -41,7 +41,7 @@ ubuntu:24.04 --platform linux/arm64
 #centos:centos7.9.2009
 #--------- docker in docker -----------
 #docker:26.1.4-dind-rootless
-docker:26.1.4-dind
+#docker:26.1.4-dind
 #--------- caddy -----------
 #caddy:2.8.4
 #--------- mysql -----------
@@ -61,11 +61,13 @@ docker:26.1.4-dind
 #mongo-express:1.0.2-20
 #----------- minio ---------
 #minio/minio:RELEASE.2024-08-03T04-33-23Z
+# 最后一个拥有管理 UI 的版本
+minio/minio:RELEASE.2025-04-22T22-12-26Z
 #---------- redis ----------
 #redis:7.2.5
 #redis:4.0.11-alpine
 #---------- nginx ----------
-nginx
+#nginx
 #nginx:1.26.1
 #nginx:1.27.4
 #nginx:1.27.4-alpine
@@ -104,14 +106,14 @@ nginx
 #---------- openjdk ----------
 #openjdk:8u201-alpine
 #---------- python ----------
-python
+#python
 #python:3.9.19
 #python:3.9.19-alpine
 #python:3.9.19-bullseye
 #python:3.9.19-slim-bullseye
 #python:3.12.4
 #---------- golang ----------
-golang
+#golang
 #golang:1.17
 #golang:1.20.14
 #golang:1.20.14-bullseye
@@ -125,7 +127,7 @@ golang
 #---------- php ----------
 #php:5.6.40-apache
 #---------- node ----------
-node
+#node
 #node:12
 #node:12.22.12
 #node:14
@@ -198,7 +200,7 @@ node
 #mcr.microsoft.com/devcontainers/java:1-8-bullseye
 #mcr.microsoft.com/devcontainers/java:1-21-bullseye
 #mcr.microsoft.com/devcontainers/base:jammy
-mcr.microsoft.com/devcontainers/base:dev-ubuntu-24.04
+#mcr.microsoft.com/devcontainers/base:dev-ubuntu-24.04
 #----------- coturn ---------
 #coturn/coturn:4.6.2
 #----------- filebrowser ---------
