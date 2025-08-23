@@ -143,8 +143,8 @@ minio/minio:RELEASE.2025-04-22T22-12-26Z
 #node:20.19.0
 #node:22
 #node:22.4.1
-node:22.11.0
-node:22.11.0 --platform linux/arm64
+#node:22.11.0
+#node:22.11.0 --platform linux/arm64
 #node:22.14.0
 #---------- bun ----------
 #oven/bun:1.2.12
@@ -221,22 +221,22 @@ node:22.11.0 --platform linux/arm64
 #gitlab/gitlab-ce:13.1.11-ce.0
 #gitlab/gitlab-ce:13.8.8-ce.0
 #gitlab/gitlab-ce:13.12.15-ce.0
-gitlab/gitlab-ce:14.0.12-ce.0
-gitlab/gitlab-ce:14.3.6-ce.0
-gitlab/gitlab-ce:14.9.5-ce.0
-gitlab/gitlab-ce:14.10.5-ce.0
-gitlab/gitlab-ce:15.0.5-ce.0
-gitlab/gitlab-ce:15.4.6-ce.0
-gitlab/gitlab-ce:15.11.13-ce.0
-gitlab/gitlab-ce:16.3.9-ce.0
-gitlab/gitlab-ce:16.7.10-ce.0
-gitlab/gitlab-ce:16.11.10-ce.0
-gitlab/gitlab-ce:17.1.8-ce.0
-gitlab/gitlab-ce:17.3.7-ce.0
-gitlab/gitlab-ce:17.5.5-ce.0
-gitlab/gitlab-ce:17.8.7-ce.0
+#gitlab/gitlab-ce:14.0.12-ce.0
+#gitlab/gitlab-ce:14.3.6-ce.0
+#gitlab/gitlab-ce:14.9.5-ce.0
+#gitlab/gitlab-ce:14.10.5-ce.0
+#gitlab/gitlab-ce:15.0.5-ce.0
+#gitlab/gitlab-ce:15.4.6-ce.0
+#gitlab/gitlab-ce:15.11.13-ce.0
+#gitlab/gitlab-ce:16.3.9-ce.0
+#gitlab/gitlab-ce:16.7.10-ce.0
+#gitlab/gitlab-ce:16.11.10-ce.0
+#gitlab/gitlab-ce:17.1.8-ce.0
+#gitlab/gitlab-ce:17.3.7-ce.0
+#gitlab/gitlab-ce:17.5.5-ce.0
+#gitlab/gitlab-ce:17.8.7-ce.0
 #gitlab/gitlab-ce:17.10.1-ce.0
-gitlab/gitlab-ce:17.11.5-ce.0
+#gitlab/gitlab-ce:17.11.5-ce.0
 #gitlab/gitlab-runner:v17.10.1
 # 下面格式暂时无法识别 
 #registry.gitlab.com/gitlab-org/gitlab-runner/gitlab-runner-helper:x86_64-v17.10.1
@@ -256,3 +256,5 @@ gitlab/gitlab-ce:17.11.5-ce.0
 #axllent/mailpit:v1.24.2
 # ------ harness -----
 #harness/harness:3.2.0
+# ------ dnf server -----
+1995chen/dnf:centos7-latest
