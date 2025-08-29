@@ -1,3 +1,5 @@
+#-------- sentry ------
+ghcr.io/getsentry/sentry:25.8.0
 #-------- homepage ------------
 #ghcr.io/gethomepage/homepage:v0.7.2
 #ghcr.io/gethomepage/homepage:v1.3.2
@@ -257,5 +259,5 @@ minio/minio:RELEASE.2025-04-22T22-12-26Z
 # ------ harness -----
 #harness/harness:3.2.0
 # ------ dnf server -----
-1995chen/dnf:centos7-latest
-1995chen/dnf:centos7-2.1.10
+#1995chen/dnf:centos7-latest
+#1995chen/dnf:centos7-2.1.10
