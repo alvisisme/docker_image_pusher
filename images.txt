@@ -1,3 +1,6 @@
+#-------- dev container ------
+alvisisme/dev-container:2204
+alvisisme/dev-container:2204 --platform linux/arm64
 #-------- sentry ------
 #ghcr.io/getsentry/sentry:25.8.0
 #-------- homepage ------------
