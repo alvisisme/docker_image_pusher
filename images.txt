@@ -42,14 +42,14 @@ alvisisme/dev-container:2204 --platform linux/arm64
 #debian:12-slim --platform linux/arm64
 #debian:bookworm --platform linux/arm64
 #debian:bookworm-slim --platform linux/arm64
-debian:13
-debian:13-slim
-debian:trixie
-debian:trixie-slim
-debian:13 --platform linux/arm64
-debian:13-slim --platform linux/arm64
-debian:trixie --platform linux/arm64
-debian:trixie-slim --platform linux/arm64
+#debian:13
+#debian:13-slim
+#debian:trixie
+#debian:trixie-slim
+#debian:13 --platform linux/arm64
+#debian:13-slim --platform linux/arm64
+#debian:trixie --platform linux/arm64
+#debian:trixie-slim --platform linux/arm64
 #--------- centos -----------
 #centos:centos7.9.2009
 #--------- docker in docker -----------
