@@ -1,8 +1,16 @@
 #-------- dev container ------
 alvisisme/dev-container:2204
 alvisisme/dev-container:2204 --platform linux/arm64
+#----- penpotapp see https://raw.githubusercontent.com/penpot/penpot/main/docker/images/docker-compose.yaml ----
+penpotapp/frontend:2.9.0
+penpotapp/backend:2.9.0
+penpotapp/exporter:2.9.0
+#----- valkey -----
+valkey/valkey:8.1
+#---- mailcatcher ----
+sj26/mailcatcher:v0.10.0
 #----- ollama ----
-ollama/ollama:0.11.11
+#ollama/ollama:0.11.11
 #------- tinyauth -------
 #ghcr.io/steveiliop56/tinyauth:v3
 #---- mbtileserver -----
