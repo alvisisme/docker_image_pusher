@@ -1,6 +1,8 @@
 #-------- dev container ------
 alvisisme/dev-container:2204
 alvisisme/dev-container:2204 --platform linux/arm64
+#------- tinyauth -------
+ghcr.io/steveiliop56/tinyauth:v3
 #---- mbtileserver -----
 #ghcr.io/consbio/mbtileserver
 #-------- sentry ------
@@ -77,7 +79,7 @@ alvisisme/dev-container:2204 --platform linux/arm64
 #----------- minio ---------
 #minio/minio:RELEASE.2024-08-03T04-33-23Z
 # 最后一个拥有管理 UI 的版本
-minio/minio:RELEASE.2025-04-22T22-12-26Z
+#minio/minio:RELEASE.2025-04-22T22-12-26Z
 #---------- redis ----------
 #redis:7.2.5
 #redis:4.0.11-alpine
@@ -180,7 +182,7 @@ minio/minio:RELEASE.2025-04-22T22-12-26Z
 #gitea/gitea:1.22.1-rootless
 #----------- portainer ---------
 #portainer/portainer-ce:2.20.3
-portainer/portainer-ce:2.33.1
+#portainer/portainer-ce:2.33.1
 #----------- drone ---------
 #drone/drone:2.24.0
 #drone/cli:1.8.0
