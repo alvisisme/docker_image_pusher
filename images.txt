@@ -1,8 +1,10 @@
 #-------- dev container ------
-alvisisme/dev-container:2204
-alvisisme/dev-container:2204 --platform linux/arm64
+#alvisisme/dev-container:2204
+#alvisisme/dev-container:2204 --platform linux/arm64
+#------ ffmpeg -----
+linuxserver/ffmpeg:version-8.0-cli
 #------ drawio -----
-jgraph/drawio:28.2.3
+#jgraph/drawio:28.2.3
 #----- penpotapp see https://raw.githubusercontent.com/penpot/penpot/main/docker/images/docker-compose.yaml ----
 #penpotapp/frontend:2.9.0
 #penpotapp/backend:2.9.0
