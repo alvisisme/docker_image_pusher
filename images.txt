@@ -2,7 +2,7 @@
 alvisisme/dev-container:2204
 alvisisme/dev-container:2204 --platform linux/arm64
 #---- mbtileserver -----
-ghcr.io/consbio/mbtileserver
+#ghcr.io/consbio/mbtileserver
 #-------- sentry ------
 #ghcr.io/getsentry/sentry:25.8.0
 #-------- homepage ------------
@@ -180,6 +180,7 @@ minio/minio:RELEASE.2025-04-22T22-12-26Z
 #gitea/gitea:1.22.1-rootless
 #----------- portainer ---------
 #portainer/portainer-ce:2.20.3
+portainer/portainer-ce:2.33.1
 #----------- drone ---------
 #drone/drone:2.24.0
 #drone/cli:1.8.0
