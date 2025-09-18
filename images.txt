@@ -1,8 +1,10 @@
 #-------- dev container ------
 alvisisme/dev-container:2204
 alvisisme/dev-container:2204 --platform linux/arm64
+#----- ollama ----
+ollama/ollama:0.11.11
 #------- tinyauth -------
-ghcr.io/steveiliop56/tinyauth:v3
+#ghcr.io/steveiliop56/tinyauth:v3
 #---- mbtileserver -----
 #ghcr.io/consbio/mbtileserver
 #-------- sentry ------
