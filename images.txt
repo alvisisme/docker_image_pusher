@@ -1,8 +1,10 @@
 #-------- dev container ------
 #alvisisme/dev-container:2204
 #alvisisme/dev-container:2204 --platform linux/arm64
+#-------- unity editor -------
+unityci/editor:ubuntu-2020.3.28f1-android-3.2.1
 #------- onenav -------
-helloz/onenav:1.2.2
+#helloz/onenav:1.2.2
 #-------- unreal-engine ------
 #adamrehn/ue4-runtime:20.04-cudagl11
 #adamrehn/ue4-runtime:20.04-cudagl11.1.1
