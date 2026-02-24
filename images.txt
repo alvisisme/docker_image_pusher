@@ -89,6 +89,9 @@ unityci/editor:ubuntu-2020.3.28f1-android-3.2.1
 #mysql:5.5.54
 #mysql:5.7.23
 #mysql:5.7.43
+mysql:5.7.44
+mysql:8.4.0
+mysql:9.6.0
 #--------- adminer -----------
 #adminer:4.8.1
 #--------- phpmyadmin -----------
