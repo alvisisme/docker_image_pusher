@@ -167,6 +167,8 @@
 #golang:1.24.2-bullseye
 #golang:1.24.2-alpine3.21
 #golang:1.24.2-alpine
+golang:1.26.1
+golang:1.26.1 --platform linux/arm64
 #---------- rust ----------
 #rust:1.80.0
 #---------- php ----------
@@ -191,8 +193,8 @@
 #node:22.11.0
 #node:22.11.0 --platform linux/arm64
 #node:22.14.0
-node:24.14.0
-node:24.14.0 --platform linux/arm64
+#node:24.14.0
+#node:24.14.0 --platform linux/arm64
 #---------- bun ----------
 #oven/bun:1.2.12
 #oven/bun:1.2.12-debian
