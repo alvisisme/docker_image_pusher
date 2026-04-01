@@ -1,3 +1,6 @@
+#-------- ros ------
+ros:humble-ros-core-jammy
+ros:humble-ros-core-jammy --platform linux/arm64
 #-------- dev container ------
 #alvisisme/dev-container:2204
 #alvisisme/dev-container:2204 --platform linux/arm64
@@ -161,8 +164,8 @@
 #golang
 #golang:1.17
 #golang:1.20.14
-golang:1.20.14-bullseye
-golang:1.20.14-bullseye --platform linux/arm64
+#golang:1.20.14-bullseye
+#golang:1.20.14-bullseye --platform linux/arm64
 #golang:1.22.4
 #golang:1.24.2-bookworm
 #golang:1.24.2-bullseye
@@ -172,7 +175,6 @@ golang:1.20.14-bullseye --platform linux/arm64
 #golang:1.26.1 --platform linux/arm64
 #golang:1.26.1-bookworm
 #golang:1.26.1-bookworm --platform linux/arm64
-
 #---------- rust ----------
 #rust:1.80.0
 #---------- php ----------
