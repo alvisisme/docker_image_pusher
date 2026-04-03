@@ -1,6 +1,10 @@
 #-------- ros ------
-ros:humble-ros-core-jammy
-ros:humble-ros-core-jammy --platform linux/arm64
+ros:humble
+ros:humble --platform linux/arm64
+ros:foxy
+ros:foxy --platform linux/arm64
+#ros:humble-ros-core-jammy
+#ros:humble-ros-core-jammy --platform linux/arm64
 #-------- dev container ------
 #alvisisme/dev-container:2204
 #alvisisme/dev-container:2204 --platform linux/arm64
