@@ -1,8 +1,8 @@
 #-------- ros ------
-ros:humble
-ros:humble --platform linux/arm64
-ros:foxy
-ros:foxy --platform linux/arm64
+#ros:humble
+#ros:humble --platform linux/arm64
+#ros:foxy
+#ros:foxy --platform linux/arm64
 #ros:humble-ros-core-jammy
 #ros:humble-ros-core-jammy --platform linux/arm64
 #-------- dev container ------
@@ -181,6 +181,8 @@ ros:foxy --platform linux/arm64
 #golang:1.26.1-bookworm --platform linux/arm64
 #---------- rust ----------
 #rust:1.80.0
+rust:1.97.1-bookworm
+rust:1.97.1-bookworm --platform linux/arm64
 #---------- php ----------
 #php:5.6.40-apache
 #---------- node ----------
